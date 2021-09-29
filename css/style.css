@@ -4,10 +4,15 @@ html{
 }
 
 body{
-    margin-bottom: 100px;
     /* margin-top: 30px; */
+    height: calc(100vh - 56px) ;
     font-family: 'Fira Sans Extra Condensed', sans-serif;
     background-color: azure;
+
+}
+
+nav.navbar{
+    background-color: azure !important;
 
 }
 
@@ -74,4 +79,13 @@ p.typing{
     color: #333;
     font-weight: bold;
     font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+.myImage{
+    margin-top: 100px !important;
+}
+
+.quizContainer{
+    height: 100% !important;
+    /* margin : auto; */
 }
